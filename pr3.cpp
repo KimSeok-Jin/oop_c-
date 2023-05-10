@@ -4,7 +4,7 @@ using namespace std;
 
 class champ {
 public:
-	champ() { n1 = n2 = a = b = x0 = dx = m = 1; }
+	champ() { n1 = n2 = a = b = x0 = dx = m = 1; " }
 	champ(int N1, int N2, float A, float B, float X0, float DX, int M, string SS) {
 		n1 = N1;	n2 = N2;
 		a = A;	b = B;	x0 = X0;	dx = DX;
