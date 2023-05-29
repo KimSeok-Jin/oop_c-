@@ -13,6 +13,9 @@ public:
 	void klaxon(int);
 	virtual void oil();
 	int seats;
+	
+	Car& operator+(const Car&);
+
 protected:
 	float price;
 	void speedUp(float);

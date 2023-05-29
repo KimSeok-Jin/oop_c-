@@ -13,14 +13,9 @@ int main() {
 
 	//cout << newSUV->seats <<" seats" << endl;
 
-	
 	//newSUV->knowNO();
 	newSUV->klaxon(4);
-
-
-
-	//delete newSUV;
-
+	
 	Car cars[5];  // blank constructor
 	//for (int i = 0; i < 5; i++) {
 	//	std::cout << cars[i].speed << "  " << (cars + i)->getPrice() << "\n";
@@ -55,9 +50,17 @@ int main() {
 
 	car1->oil();
 	newSUV->oil();
-
-
 	delete newSUV;
+	delete car1;
+
+
+	Car car2= Car(100, 4, 500);
+	Car car3= Car(150, 4, 800);
+	Car car4 = car2+car3;
+	
+
+	std::cout << car4.wheels << endl;
+	std::cout<<car4.getPrice();
 
 	return 0;
 }

@@ -31,3 +31,12 @@ void Car::numaccident() {
 void Car::oil() {
 	std::cout << "Oil: Gasolin\n";
 }
+
+Car& Car::operator+(const Car& aa) {
+	Car C;
+	C.wheels =wheels+ aa.wheels;
+	C.seats =seats+ aa.seats;
+	C.speed =speed+ aa.speed;
+	C.price =price+ aa.price;
+	return C;
+}
