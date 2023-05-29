@@ -12,7 +12,7 @@ float SUV::getTotalPrice() {
 void SUV::klaxon(int ii) {
 	for (int i = 0; i < ii; i++) {
 		std::cout << "Beep\n";
-		numaccident();
+		//numaccident();
 	}
 }
 void SUV::getSeats() {
@@ -20,5 +20,8 @@ void SUV::getSeats() {
 	std::cout << seats << " seats\n";
 }
 void SUV::knowNO() {
-	std::cout << NO<<"\n";
+	std::cout << NO<<" it's new car\n";
+}
+void SUV::oil() {
+	std::cout << "Oil: Diesel\n";
 }

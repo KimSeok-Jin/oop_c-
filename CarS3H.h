@@ -11,6 +11,7 @@ public:
 	void setWheels(int);
 	int getWheels();
 	void klaxon(int);
+	virtual void oil();
 	int seats;
 protected:
 	float price;

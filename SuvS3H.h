@@ -13,5 +13,6 @@ public:
 	float getTotalPrice();
 	void getSeats();
 	void knowNO();
+	void oil();
 };
 

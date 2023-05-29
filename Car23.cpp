@@ -21,9 +21,13 @@ void Car::setWheels(int n) { wheels = n; }
 int Car::getWheels() { return wheels; }
 void Car::klaxon(int n) {
 	for (int i = 0; i < n; i++) {
-		std::cout << "  no horn \n";
+		std::cout << "no horn \n";
 	}
 }
 void Car::numaccident() {
 	accident = +1;
+	
+}
+void Car::oil() {
+	std::cout << "Oil: Gasolin\n";
 }
